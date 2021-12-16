@@ -1,0 +1,1 @@
+sudo Rscript install_r_packages.R
