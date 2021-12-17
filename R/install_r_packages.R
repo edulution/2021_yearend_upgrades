@@ -4,33 +4,16 @@ packages <- c(
   "shinyBS",
   "plotly",
   "reactable",
-  "DataEditR",
   "sparkline",
   "rtables",
-  "fsmb",
-  "bs4dash",
-  "recommenderlab",
+  "bs4Dash",
   "shiny.semantic",
   "testdat",
   "gganimate",
-  "ggalt",
   "shinyalert",
   "timevis",
-  "box",
-  "progressr",
-  "infer",
-  "tidymodels",
   "janitor"
 )
-
-# Install bslib
-# remotes::install_github("rstudio/bslib")
-
-# install shinyforms
-# devtools::install_github("daattali/shinyforms")
-
-# install latest dbhelpers package from github
-devtools::install_github("Aypak/dbhelpers")
 
 # Check and install all other packages above
 package.check <- lapply(
