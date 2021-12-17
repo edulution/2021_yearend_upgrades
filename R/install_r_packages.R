@@ -1,5 +1,13 @@
 # Initialize vector with names of packages to install from CRAN
 packages <- c(
+  "gt",
+  "shinyBS",
+  "plotly",
+  "reactable",
+  "DataEditR",
+  "sparkline",
+  "rtables",
+  "fsmb",
   "bs4dash",
   "recommenderlab",
   "shiny.semantic",
