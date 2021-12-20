@@ -1,10 +1,19 @@
 #!/bin/bash
 
-# IP address of the ftp server
-server_ip="192.168.100.42"
+server_ip=""
+eduhub_ip="192.168.8.100"
+mtn_ip="192.168.100.42"
 
 ftp_uname="sigmoid"
 ftp_pass="vadertime"
+
+
+ping -c5 -i3 $eduhub_ip
+if [ $? -eq 0 ]
+then server_ip=$eduhub_ip
+else server_ip=$mtn_ip
+fi
+
 
 # directory containing the files required
 lists_dir="lists"
