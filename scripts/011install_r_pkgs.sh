@@ -14,7 +14,6 @@ then server_ip=$eduhub_ip
 else server_ip=$mtn_ip
 fi
 
-
 # directory containing the files required
 scripts_dir="scripts"
 
