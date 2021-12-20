@@ -42,6 +42,7 @@ rm -f -- *.zip
 rm -f -- *.gz
 rm -f -- *.backup
 rm -f -- *.png
+
 rm -rf new*
 rm -rf content*
 
